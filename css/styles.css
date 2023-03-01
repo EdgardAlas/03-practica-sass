@@ -32,6 +32,8 @@ body {
 
 .main {
   padding-inline: 2.25rem;
+  display: grid;
+  place-content: center;
 }
 @media (min-width: 1200px) {
   .main {
@@ -51,15 +53,20 @@ body {
 }
 @media (min-width: 768px) {
   .header__logo {
-    max-width: 250px;
+    max-width: 170px;
   }
 }
 @media (min-width: 1200px) {
   .header__logo {
+    max-width: 200px;
+  }
+}
+@media (min-width: 1400) {
+  .header__logo {
     max-width: 300px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .header {
     height: 200px;
   }
@@ -173,6 +180,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  margin-top: 1rem;
 }
 .social__button {
   display: grid;
